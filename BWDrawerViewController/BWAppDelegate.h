@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  BWAppDelegate.h
 //  BWDrawerViewController
 //
 //  Created by syt on 2019/12/10.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface BWAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

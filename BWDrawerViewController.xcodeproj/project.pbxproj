@@ -7,25 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6754431C239F919200A3438C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6754431B239F919200A3438C /* AppDelegate.m */; };
-		6754431F239F919200A3438C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6754431E239F919200A3438C /* ViewController.m */; };
-		67544322239F919200A3438C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67544320239F919200A3438C /* Main.storyboard */; };
+		671F9C9623A1D52900546ECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 671F9C9523A1D52900546ECA /* LaunchScreen.storyboard */; };
+		671F9C9923A1E25800546ECA /* BWBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 671F9C9823A1E25800546ECA /* BWBottomView.m */; };
+		671F9C9F23A1ECFB00546ECA /* BWMarginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 671F9C9E23A1ECFB00546ECA /* BWMarginButton.m */; };
+		6754431C239F919200A3438C /* BWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6754431B239F919200A3438C /* BWAppDelegate.m */; };
 		67544324239F919300A3438C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67544323239F919300A3438C /* Assets.xcassets */; };
-		67544327239F919300A3438C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67544325239F919300A3438C /* LaunchScreen.storyboard */; };
 		6754432A239F919300A3438C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67544329239F919300A3438C /* main.m */; };
+		67544334239F94D600A3438C /* BWDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67544333239F94D600A3438C /* BWDrawViewController.m */; };
+		67544337239F951A00A3438C /* UIViewController+BWDrawVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 67544336239F951A00A3438C /* UIViewController+BWDrawVC.m */; };
+		67E5351B23A08EB900B2E0DF /* BWLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E5351A23A08EB900B2E0DF /* BWLeftViewController.m */; };
+		67E5351E23A08EBF00B2E0DF /* BWRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E5351D23A08EBF00B2E0DF /* BWRightViewController.m */; };
+		67E5352223A0CA1800B2E0DF /* BWDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E5352123A0CA1800B2E0DF /* BWDetailViewController.m */; };
+		67E5352523A0CD2000B2E0DF /* BWHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E5352423A0CD2000B2E0DF /* BWHeaderView.m */; };
+		67E5352823A0CD4500B2E0DF /* BWTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E5352723A0CD4500B2E0DF /* BWTabBarViewController.m */; };
+		67E5352E23A0D06100B2E0DF /* BWRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E5352D23A0D06100B2E0DF /* BWRootViewController.m */; };
+		67E5353323A0D13300B2E0DF /* BWFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E5353223A0D13300B2E0DF /* BWFirstViewController.m */; };
+		67E5353623A0D13800B2E0DF /* BWSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E5353523A0D13800B2E0DF /* BWSecondViewController.m */; };
+		67E5353923A0D14000B2E0DF /* BWThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E5353823A0D14000B2E0DF /* BWThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		671F9C9523A1D52900546ECA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		671F9C9723A1E25800546ECA /* BWBottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWBottomView.h; sourceTree = "<group>"; };
+		671F9C9823A1E25800546ECA /* BWBottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWBottomView.m; sourceTree = "<group>"; };
+		671F9C9D23A1ECFB00546ECA /* BWMarginButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWMarginButton.h; sourceTree = "<group>"; };
+		671F9C9E23A1ECFB00546ECA /* BWMarginButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWMarginButton.m; sourceTree = "<group>"; };
 		67544317239F919200A3438C /* BWDrawerViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWDrawerViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6754431A239F919200A3438C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6754431B239F919200A3438C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6754431D239F919200A3438C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6754431E239F919200A3438C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		67544321239F919200A3438C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6754431A239F919200A3438C /* BWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWAppDelegate.h; sourceTree = "<group>"; };
+		6754431B239F919200A3438C /* BWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWAppDelegate.m; sourceTree = "<group>"; };
 		67544323239F919300A3438C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		67544326239F919300A3438C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67544328239F919300A3438C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67544329239F919300A3438C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67544330239F91DC00A3438C /* Drawer.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Drawer.pch; sourceTree = "<group>"; };
+		67544332239F94D600A3438C /* BWDrawViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWDrawViewController.h; sourceTree = "<group>"; };
+		67544333239F94D600A3438C /* BWDrawViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWDrawViewController.m; sourceTree = "<group>"; };
+		67544335239F951A00A3438C /* UIViewController+BWDrawVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BWDrawVC.h"; sourceTree = "<group>"; };
+		67544336239F951A00A3438C /* UIViewController+BWDrawVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BWDrawVC.m"; sourceTree = "<group>"; };
+		67E5351923A08EB900B2E0DF /* BWLeftViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWLeftViewController.h; sourceTree = "<group>"; };
+		67E5351A23A08EB900B2E0DF /* BWLeftViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWLeftViewController.m; sourceTree = "<group>"; };
+		67E5351C23A08EBF00B2E0DF /* BWRightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWRightViewController.h; sourceTree = "<group>"; };
+		67E5351D23A08EBF00B2E0DF /* BWRightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWRightViewController.m; sourceTree = "<group>"; };
+		67E5352023A0CA1800B2E0DF /* BWDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWDetailViewController.h; sourceTree = "<group>"; };
+		67E5352123A0CA1800B2E0DF /* BWDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWDetailViewController.m; sourceTree = "<group>"; };
+		67E5352323A0CD2000B2E0DF /* BWHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWHeaderView.h; sourceTree = "<group>"; };
+		67E5352423A0CD2000B2E0DF /* BWHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWHeaderView.m; sourceTree = "<group>"; };
+		67E5352623A0CD4500B2E0DF /* BWTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWTabBarViewController.h; sourceTree = "<group>"; };
+		67E5352723A0CD4500B2E0DF /* BWTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWTabBarViewController.m; sourceTree = "<group>"; };
+		67E5352C23A0D06100B2E0DF /* BWRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWRootViewController.h; sourceTree = "<group>"; };
+		67E5352D23A0D06100B2E0DF /* BWRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWRootViewController.m; sourceTree = "<group>"; };
+		67E5353123A0D13300B2E0DF /* BWFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWFirstViewController.h; sourceTree = "<group>"; };
+		67E5353223A0D13300B2E0DF /* BWFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWFirstViewController.m; sourceTree = "<group>"; };
+		67E5353423A0D13800B2E0DF /* BWSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWSecondViewController.h; sourceTree = "<group>"; };
+		67E5353523A0D13800B2E0DF /* BWSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWSecondViewController.m; sourceTree = "<group>"; };
+		67E5353723A0D14000B2E0DF /* BWThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWThirdViewController.h; sourceTree = "<group>"; };
+		67E5353823A0D14000B2E0DF /* BWThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +93,81 @@
 		67544319239F919200A3438C /* BWDrawerViewController */ = {
 			isa = PBXGroup;
 			children = (
-				6754431A239F919200A3438C /* AppDelegate.h */,
-				6754431B239F919200A3438C /* AppDelegate.m */,
-				6754431D239F919200A3438C /* ViewController.h */,
-				6754431E239F919200A3438C /* ViewController.m */,
-				67544320239F919200A3438C /* Main.storyboard */,
+				67544331239F94BA00A3438C /* BWDrawView(关键代码) */,
+				67E5352F23A0D0E700B2E0DF /* SingleRootVC(示例一) */,
+				67E5353023A0D11A00B2E0DF /* TabBarVC(示例二) */,
+				67E5353C23A0E05F00B2E0DF /* Controllers */,
+				67E5351F23A0CA0E00B2E0DF /* Views */,
+				6754431A239F919200A3438C /* BWAppDelegate.h */,
+				6754431B239F919200A3438C /* BWAppDelegate.m */,
+				671F9C9523A1D52900546ECA /* LaunchScreen.storyboard */,
 				67544323239F919300A3438C /* Assets.xcassets */,
-				67544325239F919300A3438C /* LaunchScreen.storyboard */,
 				67544328239F919300A3438C /* Info.plist */,
+				67544330239F91DC00A3438C /* Drawer.pch */,
 				67544329239F919300A3438C /* main.m */,
 			);
 			path = BWDrawerViewController;
+			sourceTree = "<group>";
+		};
+		67544331239F94BA00A3438C /* BWDrawView(关键代码) */ = {
+			isa = PBXGroup;
+			children = (
+				67544332239F94D600A3438C /* BWDrawViewController.h */,
+				67544333239F94D600A3438C /* BWDrawViewController.m */,
+				67544335239F951A00A3438C /* UIViewController+BWDrawVC.h */,
+				67544336239F951A00A3438C /* UIViewController+BWDrawVC.m */,
+			);
+			path = "BWDrawView(关键代码)";
+			sourceTree = "<group>";
+		};
+		67E5351F23A0CA0E00B2E0DF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				67E5352323A0CD2000B2E0DF /* BWHeaderView.h */,
+				67E5352423A0CD2000B2E0DF /* BWHeaderView.m */,
+				671F9C9723A1E25800546ECA /* BWBottomView.h */,
+				671F9C9823A1E25800546ECA /* BWBottomView.m */,
+				671F9C9D23A1ECFB00546ECA /* BWMarginButton.h */,
+				671F9C9E23A1ECFB00546ECA /* BWMarginButton.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		67E5352F23A0D0E700B2E0DF /* SingleRootVC(示例一) */ = {
+			isa = PBXGroup;
+			children = (
+				67E5352C23A0D06100B2E0DF /* BWRootViewController.h */,
+				67E5352D23A0D06100B2E0DF /* BWRootViewController.m */,
+			);
+			path = "SingleRootVC(示例一)";
+			sourceTree = "<group>";
+		};
+		67E5353023A0D11A00B2E0DF /* TabBarVC(示例二) */ = {
+			isa = PBXGroup;
+			children = (
+				67E5352623A0CD4500B2E0DF /* BWTabBarViewController.h */,
+				67E5352723A0CD4500B2E0DF /* BWTabBarViewController.m */,
+				67E5353123A0D13300B2E0DF /* BWFirstViewController.h */,
+				67E5353223A0D13300B2E0DF /* BWFirstViewController.m */,
+				67E5353423A0D13800B2E0DF /* BWSecondViewController.h */,
+				67E5353523A0D13800B2E0DF /* BWSecondViewController.m */,
+				67E5353723A0D14000B2E0DF /* BWThirdViewController.h */,
+				67E5353823A0D14000B2E0DF /* BWThirdViewController.m */,
+			);
+			path = "TabBarVC(示例二)";
+			sourceTree = "<group>";
+		};
+		67E5353C23A0E05F00B2E0DF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				67E5351923A08EB900B2E0DF /* BWLeftViewController.h */,
+				67E5351A23A08EB900B2E0DF /* BWLeftViewController.m */,
+				67E5351C23A08EBF00B2E0DF /* BWRightViewController.h */,
+				67E5351D23A08EBF00B2E0DF /* BWRightViewController.m */,
+				67E5352023A0CA1800B2E0DF /* BWDetailViewController.h */,
+				67E5352123A0CA1800B2E0DF /* BWDetailViewController.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +196,7 @@
 		6754430F239F919200A3438C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = BW;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = syt;
 				TargetAttributes = {
@@ -128,9 +228,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67544327239F919300A3438C /* LaunchScreen.storyboard in Resources */,
 				67544324239F919300A3438C /* Assets.xcassets in Resources */,
-				67544322239F919200A3438C /* Main.storyboard in Resources */,
+				671F9C9623A1D52900546ECA /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,32 +240,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6754431F239F919200A3438C /* ViewController.m in Sources */,
+				67E5352823A0CD4500B2E0DF /* BWTabBarViewController.m in Sources */,
+				67E5351E23A08EBF00B2E0DF /* BWRightViewController.m in Sources */,
+				67E5353923A0D14000B2E0DF /* BWThirdViewController.m in Sources */,
+				671F9C9923A1E25800546ECA /* BWBottomView.m in Sources */,
 				6754432A239F919300A3438C /* main.m in Sources */,
-				6754431C239F919200A3438C /* AppDelegate.m in Sources */,
+				67E5353623A0D13800B2E0DF /* BWSecondViewController.m in Sources */,
+				671F9C9F23A1ECFB00546ECA /* BWMarginButton.m in Sources */,
+				6754431C239F919200A3438C /* BWAppDelegate.m in Sources */,
+				67544337239F951A00A3438C /* UIViewController+BWDrawVC.m in Sources */,
+				67E5353323A0D13300B2E0DF /* BWFirstViewController.m in Sources */,
+				67E5352E23A0D06100B2E0DF /* BWRootViewController.m in Sources */,
+				67E5352523A0CD2000B2E0DF /* BWHeaderView.m in Sources */,
+				67E5351B23A08EB900B2E0DF /* BWLeftViewController.m in Sources */,
+				67E5352223A0CA1800B2E0DF /* BWDetailViewController.m in Sources */,
+				67544334239F94D600A3438C /* BWDrawViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		67544320239F919200A3438C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				67544321239F919200A3438C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		67544325239F919300A3438C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				67544326239F919300A3438C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6754432B239F919300A3438C /* Debug */ = {
@@ -285,7 +377,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BWDrawerViewController/Drawer.pch";
 				INFOPLIST_FILE = BWDrawerViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,7 +388,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = syt.BWDrawerViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -301,7 +396,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BWDrawerViewController/Drawer.pch";
 				INFOPLIST_FILE = BWDrawerViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,7 +407,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = syt.BWDrawerViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

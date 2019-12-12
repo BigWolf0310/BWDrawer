@@ -1,24 +1,67 @@
 //
-//  AppDelegate.m
+//  BWAppDelegate.m
 //  BWDrawerViewController
 //
 //  Created by syt on 2019/12/10.
 //  Copyright © 2019 syt. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "BWAppDelegate.h"
 
-@interface AppDelegate ()
+#import "BWRootViewController.h"
+
+#import "BWLeftViewController.h"
+#import "BWRightViewController.h"
+
+#import "BWTabBarViewController.h"
+
+@interface BWAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation BWAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+ 
+    // 加载导航控制器/TabBar控制器
+    BWDrawViewController *drawVC = [self loadNavigationController:NO];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = UIColor.whiteColor;
+    [self.window makeKeyAndVisible];
+    self.window.rootViewController = drawVC;
     return YES;
 }
+
+#pragma mark - 导航控制器/TabBar控制器
+- (BWDrawViewController *)loadNavigationController:(BOOL)isTabBar
+{
+    // 左侧抽屉
+    BWLeftViewController *leftVC = [BWLeftViewController new];
+    // 右侧抽屉
+    BWRightViewController *rightVC = [BWRightViewController new];
+    if (isTabBar) { // 示例二
+        BWTabBarViewController *tabBarVC = [BWTabBarViewController new];
+        BWDrawViewController *drawVC = [[BWDrawViewController alloc] initWithRootVC:tabBarVC leftVC:leftVC rightVC:rightVC];
+        return drawVC;
+    } else { // 示例一
+        BWRootViewController *vc = [BWRootViewController new];
+        //配置NavigationBar
+        UINavigationController *rootNav = [[UINavigationController alloc] initWithRootViewController:vc];
+        [rootNav.navigationBar setBackgroundImage:[UIImage imageNamed:@"navbarBackImage"] forBarMetrics:UIBarMetricsDefault];
+        rootNav.navigationBar.tintColor = [UIColor whiteColor];
+        // 改变导航条上面字体的颜色
+        [rootNav.navigationBar setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor], NSForegroundColorAttributeName, nil]];
+        BWDrawViewController *drawVC = [[BWDrawViewController alloc] initWithRootVC:rootNav leftVC:leftVC rightVC:rightVC];
+        return drawVC;
+    }
+}
+
+
+
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
